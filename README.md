@@ -1,11 +1,9 @@
 # Assignment
 Online Technical Challenge
 # _Challenge 1_ 
--
-Introduction
 ---
----
-Here I am ushing ARM Template to create a 3-tier architecture on Microsoft Azure. I am  creating 3 VM's
+Here I am ushing ARM Template IAC concept to create a 3-tier architecture using Microsoft Azure cloud.
+I am  creating 3 VM's
 1) Front End Layer 2) Back End Layer 3) Database Layer
 
 ARM Template will create multiple resources (i.e. V.M., NSG, NIC, Public IP, Availability Set, etc.) to set up whole infrastructure 
@@ -20,9 +18,6 @@ I have created multiple NSG in this template so that only required ports should 
 
 
 # _Challenge 2_ 
--
-Introduction
----
 ---
 This function is to get the metadata from the aws portal for each individual ec2 instance. 
 
@@ -43,9 +38,6 @@ we need to run **(Bonus Point)**
 
 
 # _Challenge 3_ 
--
-Introduction
----
 ---
 This function is to get value from the nested object. In this function we will pass the two arguments:
 1) Object
@@ -64,5 +56,5 @@ By running this command we will get output as shown below:
 2021-03-26 01:55:30 INFO     ===> output : a`
 
 
-We also created some unit test cases for the same that you can find in `unitTest.py` file. It 
-consists of multiple unit test cases scenario for challenge 3.  
+I have also created some unit test cases for the same that you can find in `unitTest.py` file.
+It consists of multiple unit test cases scenario for challenge 3.  
