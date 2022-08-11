@@ -3,7 +3,9 @@ Online Technical Challenge
 # _Challenge 1_ 
 ---
 Here I am ushing ARM Template IAC concept to create a 3-tier architecture using Microsoft Azure cloud.
-I am  creating 3 VM's   1) Front End Layer 2) Back End Layer 3) Database Layer
+
+I am  creating 3 VM's   
+1) Front End Layer 2) Back End Layer 3) Database Layer
 
 ARM Template will create multiple resources (i.e. V.M., NSG, NIC, Public IP, Availability Set, etc.) to set up whole infrastructure 
 for a 3-tier application.
