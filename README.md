@@ -25,13 +25,13 @@ The function is to get the metadata from the aws portal for each individual ec2 
 
 Using this I can fetch the metadata in two ways:
 1) I can fetch whole metadata in json object format. 
-To fetch the whole metadata we need to run
+To fetch the whole metadata I need to run
    
     ``python get_metadata.py -o all``
 
 
 2) I can fetch single metadata just by entering the key. Let I want to get the "ami-id" data from the instance. To get this 
-we need to run **(Bonus Point)**
+I need to run **(Bonus Point)**
    
     `python get_metadata.py -o key -k ami-id`
 
