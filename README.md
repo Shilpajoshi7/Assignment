@@ -5,15 +5,13 @@ Online Technical Challenge
 Introduction
 ---
 ---
-This ARM Template is used to create a 3-tier architecture on Microsoft Azure. I am  creating 3 VM's
-1) Front End Layer
-2) Back End Layer
-3) Database Layer
+Here I am ushing ARM Template to create a 3-tier architecture on Microsoft Azure. I am  creating 3 VM's
+1) Front End Layer 2) Back End Layer 3) Database Layer
 
-This ARM Template will create multiple resources (i.e. V.M., NSG, NIC, Public IP, Availability Set, etc.) to set up whole infrastructure 
+ARM Template will create multiple resources (i.e. V.M., NSG, NIC, Public IP, Availability Set, etc.) to set up whole infrastructure 
 for a 3-tier application.
 
-We created multiple NSG in this template so that only required ports should be open. For Example, we don't need to RDP in front end layer, so we will block RDP port, and we need to open internet and https port for the same we will create the policy in ARM template to open port 443 for front end layer.
+I have created multiple NSG in this template so that only required ports should be open. For Example, I don't need to RDP in front end layer, so I will block RDP port, and I need to open internet and https port for the same I will create the policy in ARM template to open port 443 for front end layer.
 
 
 
