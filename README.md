@@ -1,10 +1,11 @@
 # Assignment
 Online Technical Challenge
+
 # _Challenge 1_ 
 ---
 Here I am ushing ARM Template IAC concept to create a 3-tier architecture using Microsoft Azure cloud.
 
-I am  creating 3 VM's   
+I am creating 3 VM's   
 1) Front End Layer 2) Back End Layer 3) Database Layer
 
 ARM Template will create multiple resources (i.e. V.M., NSG, NIC, Public IP, Availability Set, etc.) to set up whole infrastructure 
@@ -20,16 +21,16 @@ I have created multiple NSG in this template so that only required ports should 
 
 # _Challenge 2_ 
 ---
-This function is to get the metadata from the aws portal for each individual ec2 instance. 
+The function is to get the metadata from the aws portal for each individual ec2 instance. 
 
-By this we can fetch the metadata in two ways:
-1) We will fetch whole metadata in json object format. 
+Using this I can fetch the metadata in two ways:
+1) I can fetch whole metadata in json object format. 
 To fetch the whole metadata we need to run
    
     ``python get_metadata.py -o all``
 
 
-2) We will fetch single metadata just by entering the key. Suppose we want to get the "ami-id" data from the instance. To get this 
+2) I can fetch single metadata just by entering the key. Let I want to get the "ami-id" data from the instance. To get this 
 we need to run **(Bonus Point)**
    
     `python get_metadata.py -o key -k ami-id`
@@ -40,13 +41,13 @@ we need to run **(Bonus Point)**
 
 # _Challenge 3_ 
 ---
-This function is to get value from the nested object. In this function we will pass the two arguments:
+The function is to get value from the nested object. In this function I am passing pass the two arguments:
 1) Object
 2) Key
 
-We have the nested object in which we have given a key and for that key we have to find the value from that nested object.
+I have nested object in which I have given a key and for that key I have to find the value from that nested object.
 
-To run this we need to run 
+To run this I need to run 
 
 `python main.py -o "{'x':{'y':{'z':'a'}}}" -k "x/y/z"`
 
